@@ -1,3 +1,10 @@
+var argv = require('yargs')
+		.usage('Usage: node $0 --l=[num] --b=[num]')
+		.demand(['l','b'])
+		.argv;
+
+
+
 var rec = require('./rectangle-2.js');
 
 function solveRec(l,b){
@@ -12,4 +19,4 @@ function solveRec(l,b){
 	});
 }
 
-solveRec(2,3);
+solveRec(argv.l,argv.b);
