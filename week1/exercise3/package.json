@@ -1,0 +1,28 @@
+{
+  "name": "coursera-node",
+  "version": "1.0.0",
+  "description": "server side development using node",
+  "main": "rectangle-1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetraquard/coursera-node.git"
+  },
+  "keywords": [
+    "node",
+    "coursera",
+    "server-side"
+  ],
+  "author": "tanmay saxena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tetraquard/coursera-node/issues"
+  },
+  "homepage": "https://github.com/tetraquard/coursera-node#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  }
+}
