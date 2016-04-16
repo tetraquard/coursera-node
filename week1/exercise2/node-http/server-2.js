@@ -9,7 +9,7 @@ var server = http.createServer(function (req,res) {
 
 	console.log('Request for ' + req.url + ' by method ' + req.method);
 
-	if(req.method == 'GET'){
+	if(require.method == 'GET'){
 		var fileUrl;
 		if(req.url == '/') fileUrl = '/index.html';
 		else fileUrl = req.url;
